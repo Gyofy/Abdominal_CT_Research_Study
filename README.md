@@ -53,32 +53,17 @@
 **갭:** CT + 혈액 검사에서 Child-Pugh 또는 MELD를 *연속형 회귀 출력(Continuous Regression Output)*으로 예측한 연구 없음.  
 *기회:* 임상 점수를 직접 예측하는 회귀 헤드(Regression Head) 설계 → 임상 워크플로우에 직접 대응.
 
-### 갭 3 — 다원인 및 다제조사 일반화
-현황: 단일 기관, 단일 원인(주로 HBV). 예외: Kwon 2021 (n=1,027, HBV 단독).  
-**갭:** 복수 CT 제조사에 걸친 다원인(HBV, HCV, NASH, ALD, PBC) 교차 검증 부재.  
-*기회:* 연합 학습(Federated Learning) 또는 도메인 적응 학습(Domain-adaptive Training)을 활용한 다기관·다원인 훈련.
-
-### 갭 4 — 비조영 CT + 혈액 검사의 선별 검사 활용
+### 갭 3 — 비조영 CT + 혈액 검사의 선별 검사 활용
 현황: 대부분의 모델이 조영증강 CT 사용. Yoo et al. (2025)이 비조영 CT AUC 0.7833 확인.  
 **갭:** 비조영 CT와 혈액 검사의 *결합 모델링* 미존재.  
 *기회:* 일차의료/자원 제한 환경에서 적용 가능한 저비용 선별 모델.
 
-### 갭 5 — 종단적(Longitudinal) 혈액 추세 통합
-현황: 모든 연구가 단일 시점(Cross-sectional) 혈액 수치 사용.  
-**갭:** CT와 함께 시간적 궤적(알부민 감소율, 6–12개월 혈소판 추세)이 통합된 연구 없음.  
-*기회:* 최종 시점의 CT + 종단적 혈액 시퀀스에 대한 LSTM 또는 트랜스포머(Transformer) 적용.
-
-### 갭 6 — 추가 CT 파생 특징으로서의 체성분(Body Composition)
-현황: TMF-LCNet (Xie 2025)은 지방 조직을 포함하나 골격근 미포함.  
-**갭:** 근감소증(Sarcopenia) — L3 골격근 단면적(Cross-Sectional Area), 근육 밀도, 내장 지방 — CT 파생 가능하나 어떤 융합 모델에도 미포함.  
-*기회:* 근감소증이 간경화 비대상화의 독립적 예측 인자; CT 파생 특징으로 용이하게 추가 가능.
-
-### 갭 7 — 영상 및 혈액 모달리티를 연결하는 설명가능성(Explainability)
+### 갭 4 — 영상 및 혈액 모달리티를 연결하는 설명가능성(Explainability)
 현황: Yin 2021이 Grad-CAM 사용 (영상 단독). 모달리티 간 기여도(Cross-modal Attribution) 없음.  
 **갭:** CT 영상 영역과 혈액 검사 특징 기여도를 단일 예측에 연결하는 SHAP 또는 통합 그래디언트(Integrated Gradients) 적용 연구 없음.  
 *기회:* 규제 승인 및 의사 수용(Physician Adoption)에 필수적.
 
-### 갭 8 — 전향적 임상 검증(Prospective Clinical Validation)
+### 갭 5 — 전향적 임상 검증(Prospective Clinical Validation)
 현황: 검토된 모든 연구가 후향적(Retrospective).  
 **갭:** AI와 FIB-4, 간 강성 측정(Liver Stiffness Measurement), 또는 임상 워크플로우에서의 Baveno VII 기준을 비교하는 전향적 검증 없음.  
 *기회:* 임상 적용을 위한 필수 단계; 실제 표준 치료 도구와의 비교 가능.
