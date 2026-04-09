@@ -70,32 +70,7 @@
 
 ---
 
-## 3. 추천 투고처 (학회 및 저널)
-
-### 최우선 국제 저널 (Top International Journals)
-
-| 투고처 | 약칭 | 특이사항 |
-|---|---|---|
-| Medical Image Analysis | MedIA | 의료 영상 AI 최고 저널; IF ~10 |
-| IEEE Transactions on Medical Imaging | TMI | 영상 처리+AI 통합 연구에 최적 |
-| Radiology | Radiology | 임상 영향력 최대; IF ~12 |
-| Radiology: Artificial Intelligence | Radiology AI | AI 중심 방사선과학 전문지 |
-| Hepatology | Hepatology | 간질환 임상 연구 최고 저널; IF ~12 |
-| Journal of Hepatology | J Hepatol | 유럽간학회지; 임상+기초 균형 |
-| European Radiology | Eur Radiol | 유럽 방사선과학; CT/MRI 연구 활발 |
-
-### 주요 국제 학술대회 (Top International Conferences)
-
-| 학술대회 | 약칭 | 특이사항 |
-|---|---|---|
-| Medical Image Computing and Computer Assisted Intervention | MICCAI | 의료 영상 AI 최대 국제 학술대회 |
-| IEEE International Symposium on Biomedical Imaging | ISBI | 생의학 영상 처리 전문 학술대회 |
-| Radiological Society of North America | RSNA | 북미 방사선학회; 임상 AI 발표 활발 |
-| European Congress of Radiology | ECR | 유럽 방사선학회 연례 학술대회 |
-
----
-
-## 4. 검색 로그
+## 3. 검색 로그
 
 | # | 데이터베이스 | 검색어 | 날짜 | 검색 결과 수 |
 |---|---|---|---|---|
