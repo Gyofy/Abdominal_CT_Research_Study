@@ -37,7 +37,10 @@
 - 후향적(Retrospective) 데이터 → 전향적(Prospective) 검증은 향후 과제
 
 **코호트 정보:**
-- patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
+- patientid, Albumin, TB, AST, ALT, WBC, PMN, Hg, PLT, Na, Cr, Sex, Age,
+- Mortality	months, CTPscore, CTPclass, E.varix, Ascites, INR, CRP, MELD, MELD_Na, MELD_3
+- Etiology (Alcohol, CHB, CHC, Crypyogenic)
+
 
 ---
 
