@@ -1,6 +1,9 @@
 # 간경화 CT 연구 주제 분석 (Liver Cirrhosis CT Research Topic Analysis)
 
-> 보유 데이터: 간경화 환자 복부 CT + 혈액검사 (Liver Cirrhosis Abdominal CT + Laboratory Data)  
+> 보유 데이터: 간경화 환자 복부 CT + 혈액검사 (Liver Cirrhosis Abdominal CT + Laboratory Data)
+> patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
+
+
 > 작성일: 2026-04-09
 
 ---
