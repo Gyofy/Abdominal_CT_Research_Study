@@ -1,9 +1,6 @@
 # 간경화 CT 연구 주제 분석 (Liver Cirrhosis CT Research Topic Analysis)
 
 > 보유 데이터: 간경화 환자 복부 CT + 혈액검사 (Liver Cirrhosis Abdominal CT + Laboratory Data)
-> patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
-
-
 > 작성일: 2026-04-09
 
 ---
@@ -39,6 +36,8 @@
 - 간 장기 마스크(Liver Segmentation Mask) 보유 여부 추가 확인 필요
 - 후향적(Retrospective) 데이터 → 전향적(Prospective) 검증은 향후 과제
 
+**코호트 정보:**
+patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
 ---
 
 ## 2. 연구 주제 후보
