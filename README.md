@@ -19,7 +19,7 @@
 |------------|-----------|-------------------|
 | 정상 복부 CT (Normal Abdominal CT) | 473명 | **췌장 마스크 (Pancreas Mask) 보유** |
 | 췌장 질환 CT (Pancreatic Disease CT) | 104명 (8종 질환) | **병변 포함 췌장 마스크 (Lesion Mask) 보유** |
-| 간경화 환자 CT + 혈액검사 (Liver Cirrhosis CT + Lab Data) | 미정 | CT 영상 + 구조화된 혈액 검사 수치 |
+| 간경화 환자 CT + 혈액검사 (Liver Cirrhosis CT + Lab Data) | 423+external 78 | CT 영상 + 구조화된 혈액 검사 수치 |
 
 **주요 특징:**
 - 정상 CT 473명 + 췌장 질환 CT 104명 전체에 췌장 마스크 보유 → Fully-supervised 분할 학습 가능
