@@ -37,7 +37,8 @@
 - 후향적(Retrospective) 데이터 → 전향적(Prospective) 검증은 향후 과제
 
 **코호트 정보:**
-patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
+- patientid,	Albumin,	TB,	AST,	ALT,	WBC,	PMN,	Hg,	PLT,	Na,	Cr, Sex, Age
+
 ---
 
 ## 2. 연구 주제 후보
